@@ -1,0 +1,79 @@
+Listing of compilation of file /home/admin/guile-judycl/guile-sync/matrix/gnu/bin/sync.el
+on 2023-08-23 04:15:41 by CLISP, version 2.49.93+ (2018-02-18) (built on lcy02-amd64-055.buildd [127.0.1.1])
+;; Compiling file /home/admin/guile-judycl/guile-sync/matrix/gnu/bin/sync.el ...
+
+Disassembly of function #:|2 23 "?Q"-1|
+(CONST 0) = "?Q"
+0 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+2 byte-code instructions:
+0     (CONST 0)                           ; "?Q"
+1     (SKIP&RET 1)
+WARNING: in DECLARE-FUNCTION in lines 25..107 : Unknown
+         declaration ADVERTISED-CALLING-CONVENTION.
+         The whole declaration will be ignored.
+WARNING: in DECLARE-FUNCTION in lines 25..107 : variable _FN is
+         not used.
+         Misspelled or missing IGNORE declaration?
+WARNING: in DECLARE-FUNCTION in lines 25..107 : variable _FILE
+         is not used.
+         Misspelled or missing IGNORE declaration?
+WARNING: in DECLARE-FUNCTION in lines 25..107 : variable ARGS
+         is not used.
+         Misspelled or missing IGNORE declaration?
+
+Disassembly of function #:|25 107 (DEFMACRO DECLARE-FUNCTION (_FN _FILE &REST ...) ...)-2|
+(CONST 0) = DECLARE-FUNCTION
+(CONST 1) = SYSTEM::REMOVE-OLD-DEFINITIONS
+(CONST 2) = #<COMPILED-FUNCTION DECLARE-FUNCTION>
+(CONST 3) = (_FN _FILE &REST ARGS)
+0 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+9 byte-code instructions:
+0     (CONST&PUSH 0)                      ; DECLARE-FUNCTION
+1     (CALL1 1)                           ; SYSTEM::REMOVE-OLD-DEFINITIONS
+3     (CONST&PUSH 0)                      ; DECLARE-FUNCTION
+4     (CONST&PUSH 2)                      ; #
+5     (CONST&PUSH 3)                      ; (_FN _FILE &REST ARGS)
+6     (CALLS2&PUSH 76)                    ; SYSTEM::MAKE-MACRO
+8     (CALLS2 156)                        ; SYSTEM::%PUTD
+10    (CONST 0)                           ; DECLARE-FUNCTION
+11    (SKIP&RET 1)
+
+Disassembly of function DECLARE-FUNCTION
+(CONST 0) = 3
+(CONST 1) = SYSTEM::LIST-LENGTH-IN-BOUNDS-P
+(CONST 2) = SYSTEM::MACRO-CALL-ERROR
+2 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+12 byte-code instructions:
+0     (LOAD&PUSH 2)
+1     (CONST&PUSH 0)                      ; 3
+2     (CONST&PUSH 0)                      ; 3
+3     (T&PUSH)
+4     (CALL 4 1)                          ; SYSTEM::LIST-LENGTH-IN-BOUNDS-P
+7     (JMPIFNOT L12)
+9     (NIL)
+10    (SKIP&RET 3)
+12    L12
+12    (LOAD&PUSH 2)
+13    (CALL1 2)                           ; SYSTEM::MACRO-CALL-ERROR
+15    (SKIP&RET 3)
+
+Disassembly of function #:|110 110 "?C-l"-3|
+(CONST 0) = "?C-l"
+0 required arguments
+0 optional arguments
+No rest parameter
+No keyword parameters
+2 byte-code instructions:
+0     (CONST 0)                           ; "?C-l"
+1     (SKIP&RET 1)
+;; Wrote file /home/admin/guile-judycl/guile-sync/matrix/gnu/bin/sync.fas
+;; Wrote file /home/admin/guile-judycl/guile-sync/matrix/gnu/bin/sync.lis
